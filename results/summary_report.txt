@@ -1,0 +1,47 @@
+================================================================================
+STUDENT PERFORMANCE PREDICTION - SUMMARY REPORT
+================================================================================
+
+PROJECT OVERVIEW
+--------------------------------------------------------------------------------
+This project predicts student academic performance using historical data
+including attendance, assignment scores, and test results.
+
+LINEAR REGRESSION MODEL RESULTS
+--------------------------------------------------------------------------------
+Training R² Score: 0.9918
+Training RMSE: 0.5090
+Testing R² Score: 0.9977
+Testing RMSE: 0.2575
+
+Top 5 Most Important Features:
+  15. Avg_Test: 4.0499
+  14. Avg_Assignment: 2.1312
+  3. Attendance: 1.2167
+  11. Final_Exam: 0.4134
+  9. Test_2: 0.3788
+
+K-MEANS CLUSTERING RESULTS
+--------------------------------------------------------------------------------
+Optimal Number of Clusters: 3
+
+Cluster Distribution:
+  Cluster 0: 188 students (37.6%), Avg Grade: 85.85
+  Cluster 1: 150 students (30.0%), Avg Grade: 76.72
+  Cluster 2: 162 students (32.4%), Avg Grade: 78.45
+
+KEY INSIGHTS
+--------------------------------------------------------------------------------
+1. The Linear Regression model shows good predictive performance.
+2. Key factors affecting student performance have been identified.
+3. Students have been grouped into distinct clusters based on performance patterns.
+4. These insights can help identify students needing additional support.
+
+ACTIONABLE RECOMMENDATIONS
+--------------------------------------------------------------------------------
+1. Focus on improving attendance and study hours for underperforming students.
+2. Provide targeted support to students in lower-performing clusters.
+3. Monitor key factors identified as most important for academic success.
+4. Use clustering to develop personalized intervention strategies.
+
+================================================================================
